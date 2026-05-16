@@ -1,11 +1,35 @@
-<div align="center">
+# Savings Calculator App
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A polished, responsive Savings Calculator built with React, Vite, and Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Real-time Calculations**: Instant updates as you type MRP and discount percentage.
+- **Dynamic Feedback**: Animated emojis and labels based on the discount amount.
+- **Responsive Design**: Mobile-first design with specific enhancements for phone views.
+- **Logo Support**: Upload and persist your own logo via LocalStorage.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Deployment on Vercel
 
-</div>
+This project is optimized for deployment on Vercel. 
+
+### Steps to Deploy:
+
+1. Push your code to a GitHub repository.
+2. Go to [Vercel](https://vercel.com) and click "Add New" -> "Project".
+3. Import your repository.
+4. Framework Preset: **Vite** (Automatically detected).
+5. Output Directory: **dist** (Automatically detected).
+6. Click **Deploy**.
+
+### Routing
+
+The `vercel.json` file handles the SPA routing to ensure that refreshes on sub-routes work correctly.
+
+## Tech Stack
+
+- **Framework**: React 19
+- **Build Tool**: Vite 6
+- **Styling**: Tailwind CSS 4
+- **Animations**: Motion
+- **Icons**: Lucide React

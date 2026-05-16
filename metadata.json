@@ -1,0 +1,6 @@
+{
+  "name": "LYONORA Discount Calculator",
+  "description": "A sleek and modern web-based discount calculator with real-time price updates and visual savings breakdown.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
